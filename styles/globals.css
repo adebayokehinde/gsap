@@ -1,16 +1,36 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.main p {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 400px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Avenir";
+  letter-spacing: 10px;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.main .container {
+  width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
 }
-
-* {
-  box-sizing: border-box;
+.img-container {
+  width: 1440px;
+  height: 960px;
+  position: relative;
+  overflow: hidden;
+}
+.img-container:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  right: 0;
+}
+.img-container img {
+  width: 1440px;
+  margin: 0 auto;
 }
