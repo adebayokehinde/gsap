@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import PhotoLib from "../components/main";
 import "../styles/globals.css";
 import gsap from "gsap"
 import { TimelineLite, Power2 } from "gsap";
