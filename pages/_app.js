@@ -50,8 +50,8 @@ function MyApp({ Component, pageProps }) {
           crossorigin="anonymous"
         ></script>{" "}
       </Head>
-      <div className="container p-5">
-        <section className="main p-5">
+      <div className="container">
+        <section className="main ">
           {/* <p>GSAP IMAGE REVEAL</p> */}
           <div className="container" ref={(el) => (container = el)}>
             <>
